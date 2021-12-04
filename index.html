@@ -1,45 +1,78 @@
+
+?>
+<!DOCTYPE html>
+<html>
 <head>
-<meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Masuk</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://web.archive.org/web/20200726010402cs_/https://ruang-kelas.sman22plg.sch.id/assets/plugins/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"/>
-  <link rel="stylesheet" href="https://web.archive.org/web/20200726010402cs_/https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <link href="https://web.archive.org/web/20200726010402cs_/https://ruang-kelas.sman22plg.sch.id/assets/css/adminlte.min.css" rel="stylesheet" type="text/css"/>
-  <link href="https://web.archive.org/web/20200726010402cs_/https://ruang-kelas.sman22plg.sch.id/assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css" rel="stylesheet" type="text/css"/>
-  <link href="https://web.archive.org/web/20200726010402cs_/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pendaftaran Rohis</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://rohis.sman22plg.sch.id/theme/css/bootstrap.min.css">
+<!-- Google Fonts --> <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet"> <!-- Font Awesome --> <link rel="stylesheet" href="https://rohis.sman22plg.sch.id/theme/css/font-awesome.min.css"> <!-- Simple Line Font --> <link rel="stylesheet" href="https://rohis.sman22plg.sch.id/theme/css/simple-line-icons.css">
+<!-- Slider / Carousel --> <link rel="stylesheet" href="https://rohis.sman22plg.sch.id/theme/css/slick.css">
+<link rel="stylesheet" href="https://rohis.sman22plg.sch.id/theme/css/slick-theme.css">
+<link rel="stylesheet" href="https://rohis.sman22plg.sch.id/theme/css/owl.carousel.min.css">
+<!-- Main CSS --> <link href="https://rohis.sman22plg.sch.id/theme/css/style.css" rel="stylesheet"> </head>
 </head>
-<div class="register-box">
-  <div class="register-logo">
-    <div class="user-panel mt-1 pb-1 mb-1 d-flex" style="margin-left: 36%">
-      <div class="image"></div>
-    </div>
-    <span style="font-weight: bolder;color: green">Bismillah Biso Masuk BDR</span>
-  </div>
-  <div class="card">
-    <div class="card-body register-card-body">
-        <div class="col-sm-12 mb-2 p-0">
-                    </div>
-      <form action="https://ruang-kelas.sman22plg.sch.id/login/proses_login" method="post">
-        <div class="input-group mb-3">
-          <input type="text" class="form-control" name="nomor_id" id="nomor_id" placeholder="Nomor Induk Siswa Nasional">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-id-card"></span>
+<body>
+
+<body> <!--============================= HEADER =============================-->
+	<!--bagian box formulir -->
+<section class="main-login">
+     <div class="box-login">		
+     <h2>Login BDR</h2>
+
+		<!--BAGIAN FORM LOGIN -->
+        <form action="https://ruang-kelas.sman22plg.sch.id/login/proses_login" method="post">
+            <div class="box">
+                <table>
+                    <tr>
+                        <td>Username</td>
+                        <td>:</td>
+                        <td>
+                            <input type="text" name="nomor_id" id="nomor_id" class="input-control">
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>:</td>
+                        <td>
+                            <input type="password" name="password" id="password" class="input-control">
+                        </td>
+                    </tr>
+                    </tr>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <input type="submit" name="submit" value="submit" class="btn-login">
+                        </td>
+                    </tr>
+                </table>
             </div>
-          </div>
+        </form>
         </div>
-        <div class="input-group mb-3">
-          <input type="password" class="form-control" name="password" id="password" placeholder="Kata Sandi">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-lock"></span>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-sign-in-alt"></i> Masuklah oy, tolong nian</button>
-          </div>
-        </div>
-      </form>
+    </section>
+    <!--INI FOOTER WOY-->
+       <div class="footer">Developed by <a href="https://www.instagram.com/resunasa">@resunasa</a</div>
+        <!-- jQuery, Bootstrap JS. -->
+        <script src="https://rohis.sman22plg.sch.id/theme/js/jquery.min.js"></script>
+        <script src="https://rohis.sman22plg.sch.id/theme/js/tether.min.js"></script>
+        <script src="https://rohis.sman22plg.sch.id/theme/js/bootstrap.min.js"></script>
+        <!-- Plugins -->
+        <script src="https://rohis.sman22plg.sch.id/theme/js/slick.min.js"></script>
+        <script src="https://rohis.sman22plg.sch.id/theme/js/waypoints.min.js"></script>
+        <script src="https://rohis.sman22plg.sch.id/theme/js/counterup.min.js"></script>
+        <script src="https://rohis.sman22plg.sch.id/theme/js/owl.carousel.min.js"></script>
+        <script src="https://rohis.sman22plg.sch.id/theme/js/validate.js"></script>
+        <script src="https://rohis.sman22plg.sch.id/theme/js/tweetie.min.js"></script>
+        <!-- Subscribe -->
+        <script src="https://rohis.sman22plg.sch.id/theme/js/subscribe.js"></script>
+        <!-- Script JS -->
+        <script src="https://rohis.sman22plg.sch.id/theme/js/script.js"></script>
+</body>
+</html>
